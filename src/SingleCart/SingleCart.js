@@ -16,7 +16,7 @@ function SingleCart({ card, handleChoise , flipped, disabled}) {
               <img src={card.src} alt="frontside" className='cart front' />
               <img src="/assets/Cover.png"
                alt="backside" 
-               className="w-full block border-2 border-white rounded-md" 
+               className="w-full block border-2 border-white rounded-md sm:w-full" 
                onClick={handleClick}
              />
            </div>
