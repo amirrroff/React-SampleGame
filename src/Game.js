@@ -72,10 +72,10 @@ const Game = () => {
           },[])
     return ( 
         <div>
-             <h1 className='text-rose-700 text-4xl font-bold mb-24'>Amirrroff Game</h1>
+             <h1 className='text-rose-700 text-4xl font-bold mb-6'>Amirrroff Game</h1>
       <button className=' border-cyan-500 border-2 bg-cyan-500 rounded-lg px-12 py-2 shadow-2xl hover:bg-cyan-600 text-white text-3xl font-bold' onClick={handleCarts}>Reset</button>
       
-      <div className='grid mt-10 gap-5 grid-cols-4 p-2'>
+      <div className='grid mt-10 gap-5 grid-cols-6  p-2'>
         {cards.map(card => (
          <SingleCart
           card={card}
